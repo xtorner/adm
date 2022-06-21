@@ -1,0 +1,85 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~admin-lte/dist/css/AdminLTE.css';
+@import '~admin-lte/bower_components/font-awesome/css/font-awesome.css';
+
+a, a:focus {
+  color: #FFB121;
+}
+
+a:hover {
+  color: rgb(255, 216, 124);
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.body-white {
+  background-color: #ffffff !important;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 65px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar-login .navbar-nav>.active>a, .navbar-login .navbar-nav>.active>a:hover, .navbar-login .navbar-nav>.active>a:focus {
+  border-bottom: 1px solid #FFA900;
+  background-color: transparent;
+}
+
+.navbar-login .navbar-nav>li>a:hover, .navbar-login .navbar-nav>li>a:focus {
+  color: #FFA900;
+  background-color: transparent;
+}
+
+
+.m-top10 {
+  margin-top: 10px;
+}
+
+.m-top50 {
+  margin-top: 50px;
+}

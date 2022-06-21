@@ -1,0 +1,450 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// jQueryUI
+//@import '~jquery-ui/themes/base/all.css';
+
+// Bootstrap
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.css';
+@import '~admin-lte/bower_components/font-awesome/css/font-awesome.css';
+@import '~admin-lte/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css';
+@import '~admin-lte/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css';
+@import '~eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css';
+@import './scripts/bootstrap-multiselect.css';
+// AdminLTE
+@import '~admin-lte/dist/css/AdminLTE.css';
+
+
+a, a:focus {
+  color: #2687C8;
+}
+
+a:hover {
+  color: rgba(38, 135, 200, 0.51);
+}
+
+.btn-primary {
+  background-color: #2687C8;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary.hover, .btn-primary:focus, .btn-primary a:focus {
+  background-color: #2687C8 !important;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.body-white {
+  background-color: #ffffff !important;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 65px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar-app .navbar-nav>.active>a, .navbar-app .navbar-nav>.active>a:hover, .navbar-app .navbar-nav>.active>a:focus {
+  border-bottom: 1px solid #2687C8;
+  background-color: transparent;
+}
+
+.navbar-app .navbar-nav>li>a:hover, .navbar-app .navbar-nav>li>a:focus {
+  color: #2687C8;
+  background-color: transparent;
+}
+
+.p-left15 {
+  padding-left:15px;
+}
+
+.m-top10 {
+  margin-top: 10px;
+}
+
+.m-top50 {
+  margin-top: 50px;
+}
+
+.vcenter {
+  vertical-align: middle !important;
+}
+
+/*
+ * Skin: app
+ * ----------
+ */
+.skin-ssh-default .main-header {
+  box-shadow: 0 0 6px #131313;
+}
+
+.skin-ssh-default .main-header .navbar {
+  background-color: #ffffff;
+}
+.skin-ssh-default .main-header .navbar .nav > li > a {
+  color: #6d6d6d;
+}
+.skin-ssh-default .main-header .navbar .nav > li > a:hover,
+.skin-ssh-default .main-header .navbar .nav > li > a:active,
+.skin-ssh-default .main-header .navbar .nav > li > a:focus,
+.skin-ssh-default .main-header .navbar .nav .open > a,
+.skin-ssh-default .main-header .navbar .nav .open > a:hover,
+.skin-ssh-default .main-header .navbar .nav .open > a:focus,
+.skin-ssh-default .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #6d6d6d;
+}
+.skin-ssh-default .main-header .navbar .sidebar-toggle {
+  color: #6d6d6d;
+}
+.skin-ssh-default .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-ssh-default .main-header .navbar .sidebar-toggle {
+  color: #6d6d6d;
+}
+.skin-ssh-default .main-header .navbar .sidebar-toggle:hover {
+  background-color: #2687C8;
+}
+@media (max-width: 767px) {
+  .skin-ssh-default .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-ssh-default .main-header .navbar .dropdown-menu li a {
+    color: #6d6d6d;
+  }
+  .skin-ssh-default .main-header .navbar .dropdown-menu li a:hover {
+    background: #2687C8;
+  }
+}
+.skin-ssh-default .main-header .logo {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+
+.skin-ssh-default .main-header .logo img {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+}
+
+.skin-ssh-default .main-header li.user-header {
+  background-color: #2687C8;
+}
+.skin-ssh-default .content-header {
+  background: transparent;
+}
+.skin-ssh-default .wrapper,
+.skin-ssh-default .main-sidebar,
+.skin-ssh-default .left-side {
+  background-color: #2687C8;
+}
+
+.skin-ssh-default .content-wrapper {
+  background-color: #ffffff;
+  //background-color: #ebebeb;
+}
+
+.skin-ssh-default .main-sidebar {
+  padding-top:65px;
+}
+
+.skin-ssh-default .user-panel {
+  height: 30px;
+  position: unset;
+}
+
+.skin-ssh-default .user-panel > .info,
+.skin-ssh-default .user-panel > .info > a {
+  color: #fff;
+}
+.skin-ssh-default .sidebar-menu > li.header {
+  color: #fff;
+  background: #2687C8;
+}
+.skin-ssh-default .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-ssh-default .sidebar-menu > li:hover > a,
+.skin-ssh-default .sidebar-menu > li.active > a,
+.skin-ssh-default .sidebar-menu > li.menu-open > a {
+  color: #ffffff;
+  background: #245d9c;
+}
+.skin-ssh-default .sidebar-menu > li.active > a {
+  border-left-color: #245d9c;
+}
+.skin-ssh-default .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2574b4;
+}
+
+.skin-ssh-default .sidebar-menu > li > .treeview-menu > li > .treeview-menu {
+  background: #245d9c;
+}
+
+.skin-ssh-default .sidebar a {
+  color: #fff;
+}
+.skin-ssh-default .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-ssh-default .sidebar-menu .treeview-menu > li > a {
+  color: #fff;
+}
+.skin-ssh-default .sidebar-menu .treeview-menu > li.active > a,
+.skin-ssh-default .sidebar-menu .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-ssh-default .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  margin: 10px 10px;
+}
+.skin-ssh-default .sidebar-form input[type="text"],
+.skin-ssh-default .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #2687C8;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-ssh-default .sidebar-form input[type="text"] {
+  color: #fff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-ssh-default .sidebar-form input[type="text"]:focus,
+.skin-ssh-default .sidebar-form input[type="text"]::placeholder,
+.skin-ssh-default .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #2687C8;
+  color: #fff;
+}
+.skin-ssh-default .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-ssh-default .sidebar-form .btn {
+  color: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-ssh-default.layout-top-nav .main-header > .logo {
+  background-color: #2687C8;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-ssh-default.layout-top-nav .main-header > .logo:hover {
+  background-color: #2687C8;
+}
+
+.skin-ssh-default .main-footer {
+  background-color: #ffffff;
+}
+
+.skin-ssh-default .sidebar-menu .icon {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.skin-ssh-default .panel-menu .icon {
+  margin-top: 10px;
+}
+
+.skin-ssh-default .box {
+  border-top: none;
+  background:none;
+  box-shadow: none;
+}
+
+.skin-ssh-default .box .box-footer {
+  background: none;
+  border:none;
+}
+
+.skin-ssh-default .box-dashboard {
+  background-color: #f5f5f5;
+}
+
+.skin-ssh-default .box-dashboard .box-header {
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.skin-ssh-default .box-dashboard .box-footer {
+  border-top: 1px solid #E4E4E4;
+}
+
+.skin-ssh-default .header-page img {
+  float:left;
+  width: 40px;
+  height: 40px;
+  margin-right:14px;
+}
+
+.skin-ssh-default .header-page h1 {
+  float:left;
+  font-size: 24px;
+  color: #000;
+  margin-top:8px;
+}
+
+.skin-ssh-default .header-icon {
+  width: 20px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.skin-ssh-default .btn-circle {
+  border-radius: 50%;
+  border-color: #868686;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  font-size: 12px;
+}
+
+.skin-ssh-default .icon-user {
+  width: 16px;
+  margin-left: -1px;
+  margin-top: -3px;
+}
+
+.skin-ssh-default .icon-filters {
+  width: 16px;
+  margin-left: -1px;
+  margin-top: -1px;
+}
+
+.skin-ssh-default .icon-ports {
+  width: 16px;
+  margin-left: -1px;
+  margin-top: -3px;
+}
+
+.skin-ssh-default .label-header {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.skin-ssh-default .breadcrumb i {
+  margin-right: 5px;
+}
+
+.skin-ssh-default .breadcrumb {
+  color: #2687C8;
+}
+
+.skin-ssh-default .breadcrumb .active {
+  color: #000;
+}
+.skin-ssh-default .btn {
+  padding: 5px 10px;
+}
+
+.skin-ssh-default .control-td a,
+.skin-ssh-default .control-td button {
+  margin-right: 5px;
+}
+
+.skin-ssh-default .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
+.skin-ssh-default .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+  color: #fff;
+  background: #2687C8;
+}
+
+.skin-ssh-default .bootstrap-switch {
+  //border-radius: 20px;
+  background: #fff;
+}
+
+//.skin-ssh-default .bootstrap-switch .bootstrap-switch-handle-on,
+//.skin-ssh-default .bootstrap-switch .bootstrap-switch-handle-off {
+//  border-top-right-radius: 20px;
+//  border-bottom-right-radius: 20px;
+//  border-top-left-radius: 20px;
+//  border-bottom-left-radius: 20px;
+//}
+
+//.skin-ssh-default .bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-on, .bootstrap-switch.bootstrap-switch-small .bootstrap-switch-handle-off, .bootstrap-switch.bootstrap-switch-small .bootstrap-switch-label {
+//  padding: 5px 7px;
+//  font-size: 12px;
+//  line-height: 1.5;
+//}
+
+.skin-ssh-default .table-app > tbody > tr:nth-of-type(even) {
+  background-color: #ebebeb;
+}
+
+.skin-ssh-default .treeview > ul > li.active > a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.skin-ssh-default .box-header > .pagination {
+  margin:0px;
+}
+
+.skin-ssh-default .filter {
+  resize: none;
+}
+
+.skin-ssh-default .table-app .checkbox {
+  margin:0px;
+  padding-top:5px;
+  padding-left: 13px;
+}
+
+.skin-ssh-default .inner-actions a {
+  margin-left:5px;
+  margin-right: 5px;
+}
+
+//.skin-ssh-default .bootstrap-switch-container {
+//  width: 94px !important;
+//  margin-left:-32px !important;
+//}
